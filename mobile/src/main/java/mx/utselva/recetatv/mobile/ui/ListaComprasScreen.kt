@@ -51,7 +51,7 @@ fun ListaComprasScreen(
 
     Column(modifier = Modifier.fillMaxSize().padding(20.dp)) {
         Text(
-            text = "Lista de compras",
+            text = "Mi lista de compras 📝",
             fontSize = 24.sp,
             fontWeight = FontWeight.Bold,
             color = MaterialTheme.colorScheme.primary
@@ -64,7 +64,7 @@ fun ListaComprasScreen(
         Spacer(modifier = Modifier.height(16.dp))
 
         if (ingredientes.isEmpty()) {
-            Text("Aún no has recibido una lista desde la TV.\n\nEn la app de Smart TV, presiona \"Enviar lista de compras\" durante el Modo Cocina.")
+            Text("Todavía no tienes ingredientes por comprar.\n\nDesde la app de Smart TV, presiona \"Enviar lista de compras\" durante el Modo Cocina.")
         } else {
             LazyColumn {
                 items(ingredientes) { ingrediente ->
