@@ -88,7 +88,7 @@ fun ModoCocinaScreen(
             OutlinedButton(
                 onClick = { if (pasoActual > 1) onPasoCambiado(pasoActual - 1) },
             ) {
-                Text("◀ Anterior")
+                Text("◀ Paso anterior")
             }
 
             Button(
@@ -104,7 +104,7 @@ fun ModoCocinaScreen(
                 onEnviarListaCompras()
                 listaEnviada = true
             }) {
-                Text(if (listaEnviada) "Lista enviada ✔" else "Enviar lista de compras 🛒")
+                Text(if (listaEnviada) "Lista enviada ✅" else "Enviar lista de compras 📝")
             }
         }
     }
