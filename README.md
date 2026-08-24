@@ -63,3 +63,21 @@ git add .
 git commit -m "Commit inicial: estructura del proyecto RecetaTV"
 ```
 Y continuar con un commit por cada día de desarrollo indicando la funcionalidad lograda.
+
+## Estado final del proyecto
+
+El proyecto **RecetaTV** ha sido finalizado, integrando la aplicación móvil y la aplicación para Smart TV.
+
+Se completaron las principales funcionalidades:
+
+- Catálogo de recetas en la aplicación móvil.
+- Envío de recetas desde el celular hacia la TV.
+- Modo Cocina en la aplicación de TV.
+- Navegación de pasos mediante el control remoto.
+- Temporizador para los pasos que lo requieren.
+- Envío de la lista de compras desde la TV hacia el celular.
+- Lista de compras con formato de checklist.
+- Comunicación bidireccional mediante Firebase Firestore.
+- Integración de los módulos `core`, `mobile` y `tv`.
+
+**Estado:** Proyecto finalizado.
