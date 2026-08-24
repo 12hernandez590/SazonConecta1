@@ -122,6 +122,52 @@ object RecetasRepositorio {
                 PasoReceta(3, "Licúa hasta obtener una mezcla uniforme.", temporizadorSegundos = 45),
                 PasoReceta(4, "Sirve de inmediato.")
             )
+        ),
+        Receta(
+            id = "6",
+            nombre = "Avena con manzana y canela",
+            descripcionCorta = "Desayuno suave, fácil de masticar y rico en fibra",
+            tiempoMinutos = 10,
+            porciones = 1,
+            emojiIcono = "🥣",
+            ingredientes = listOf(
+                "1/2 taza de avena en hojuelas",
+                "1 taza de leche baja en grasa o agua",
+                "1/2 manzana picada en trozos pequeños",
+                "1/2 cucharadita de canela en polvo",
+                "1 cucharadita de miel (opcional)"
+            ),
+            pasos = listOf(
+                PasoReceta(1, "Calienta la leche o el agua en una olla a fuego medio."),
+                PasoReceta(2, "Agrega la avena y cocina revolviendo.", temporizadorSegundos = 180),
+                PasoReceta(3, "Añade la manzana picada y la canela."),
+                PasoReceta(4, "Cocina unos minutos más hasta que espese.", temporizadorSegundos = 60),
+                PasoReceta(5, "Sirve tibio y agrega miel al gusto.")
+            )
+        ),
+        Receta(
+            id = "7",
+            nombre = "Caldo de verduras con pollo",
+            descripcionCorta = "Ligero, nutritivo y fácil de digerir",
+            tiempoMinutos = 25,
+            porciones = 2,
+            emojiIcono = "🍲",
+            ingredientes = listOf(
+                "1 pechuga de pollo en trozos pequeños",
+                "1 zanahoria picada",
+                "1 calabacita picada",
+                "1/2 taza de papa en cubos",
+                "4 tazas de agua",
+                "Sal al gusto"
+            ),
+            pasos = listOf(
+                PasoReceta(1, "Pon el agua a hervir en una olla grande.", temporizadorSegundos = 300),
+                PasoReceta(2, "Agrega el pollo y cocina hasta que cambie de color.", temporizadorSegundos = 300),
+                PasoReceta(3, "Añade la zanahoria y la papa."),
+                PasoReceta(4, "Cocina a fuego medio hasta que las verduras estén suaves.", temporizadorSegundos = 480),
+                PasoReceta(5, "Agrega la calabacita y sal al gusto, cocina 5 minutos más.", temporizadorSegundos = 300),
+                PasoReceta(6, "Sirve caliente.")
+            )
         )
     )
 
